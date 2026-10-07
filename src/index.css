@@ -6,13 +6,15 @@ body,
   height: 100%;
   width: 100%;
 }
-
-body {
-  margin: 0;
-  background-color: #111;
-  font-family: Arial, sans-serif;
-  color: white;
+*{
+  color: #fff;
 }
-.tasklist::-webkit-scrollbar{
-display: none;
+body {
+  background-color: #111;
+}
+
+.tasklist::-webkit-scrollbar {
+  background-color: transparent;
+  height: 5px;
+  display: none;
 }
